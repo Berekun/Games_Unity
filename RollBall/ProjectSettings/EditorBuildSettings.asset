@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ParkourScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Laberinto.unity
+    guid: f9550fda51c94bf4a8d7bfe2c0a321b3
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: 7e92509c6cf5a1349a50115c98faa2ba
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: a62b7864011dc0c44bae879fed129259
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 2f4a9d0e46ebe1241aac04000009e2e9
+  m_configObjects: {}

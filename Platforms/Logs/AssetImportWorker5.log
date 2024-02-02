@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16104 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/xnats/Platforms
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+59590
+Successfully changed project path to: C:/Users/xnats/Platforms
+C:/Users/xnats/Platforms
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25620] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3410694554 [EditorId] 3410694554 [Version] 1048832 [Id] WindowsEditor(7,berekun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25620] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3410694554 [EditorId] 3410694554 [Version] 1048832 [Id] WindowsEditor(7,berekun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 12.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xnats/Platforms/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7972 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006853 seconds.
+- Loaded All Assemblies, in  0.271 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.497 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.7 KB). Loaded Objects now: 4476.
+Memory consumption went from 145.3 MB to 145.1 MB.
+Total: 3.230000 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.727400 ms  DeleteObjects: 0.181300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IsGrounded.cs: a0dc77b93e576e6d9ed83de6ea711eb0 -> 021bb25e33924cf2de1e16fc63971e23
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 870195.988085 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_18.asset
+  artifactKey: Guid(375e63fc19d16c44993f771e009efb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_18.asset using Guid(375e63fc19d16c44993f771e009efb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434fe1cda83f463226ee178e4e1de31f') in 0.073632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_31.asset
+  artifactKey: Guid(7b3222ee5faea8243bc128fdec0f9e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_31.asset using Guid(7b3222ee5faea8243bc128fdec0f9e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8bca8d0d14d282342835d367ca248c') in 0.015318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_34.asset
+  artifactKey: Guid(33e47bc04a44a3145b1f1f6b0c967785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_34.asset using Guid(33e47bc04a44a3145b1f1f6b0c967785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0912b451286284d86f2f60bb7f3d439c') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_38.asset
+  artifactKey: Guid(39c000b62c25c524e87ec15c17ffa5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_38.asset using Guid(39c000b62c25c524e87ec15c17ffa5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fd51ec4254b14b8d13d25262d8412') in 0.014295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_41.asset
+  artifactKey: Guid(ba96cf2034aab4144ac39f4bbaf3627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_41.asset using Guid(ba96cf2034aab4144ac39f4bbaf3627a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0ca64ed7382e0228e72424ec480d7e') in 0.015753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_43.asset
+  artifactKey: Guid(7f318e43ff78a1b4a8d02d1046227d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_43.asset using Guid(7f318e43ff78a1b4a8d02d1046227d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647de94a244921e5bc8e4d55ccf1a9be') in 0.015284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.145352 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_48.asset
+  artifactKey: Guid(e94ef34488e15574a81107bcc124cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_48.asset using Guid(e94ef34488e15574a81107bcc124cc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f958e1cd56d7b83f4991c971f8c5766') in 0.013908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002466 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_52.asset
+  artifactKey: Guid(d1e48a4f63129a049946e23fcbb07802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_52.asset using Guid(d1e48a4f63129a049946e23fcbb07802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97471a88fb4e49bf852bf56dc038a692') in 0.022954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_54.asset
+  artifactKey: Guid(ea92916cf08c21444bb51daf58ed301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_54.asset using Guid(ea92916cf08c21444bb51daf58ed301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7592da600d65194777445657815604') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_66.asset
+  artifactKey: Guid(d19ccde4de4b42d46a64edc16cc0397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_66.asset using Guid(d19ccde4de4b42d46a64edc16cc0397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ee23c71b193436cdabae213f8d2296') in 0.019981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_69.asset
+  artifactKey: Guid(690eb45dfaf98a04780108685c4122b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_69.asset using Guid(690eb45dfaf98a04780108685c4122b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e24bfce8ad060a7bd775ee4c54f98c4') in 0.017477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_53.asset
+  artifactKey: Guid(90c65063dbc2080459f105086e4b26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_53.asset using Guid(90c65063dbc2080459f105086e4b26cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6f6877ead817e3af2bbfbe1f0f58db') in 0.020064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_63.asset
+  artifactKey: Guid(75189e86231e93048acc745185207a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_63.asset using Guid(75189e86231e93048acc745185207a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9364bf4b962d964101564677459ef6ef') in 0.017525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_73.asset
+  artifactKey: Guid(697f74afaa168c44dbd77147d27f0acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_73.asset using Guid(697f74afaa168c44dbd77147d27f0acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4840d9b6a8a0d6378ae4cf230ee8844') in 0.015674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.112782 seconds.
+  path: Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_78.asset
+  artifactKey: Guid(bca13a9211bd6c04b9737c9a67ab7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/craftpix-net-965049-free-industrial-zone-tileset-pixel-art/PSD/Tiles_78.asset using Guid(bca13a9211bd6c04b9737c9a67ab7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1289b23ca59b7cfc20e5f91268fe6f43') in 0.014653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
